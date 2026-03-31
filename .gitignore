@@ -1,0 +1,26 @@
+# Virtual Environment
+venv/
+env/
+.env
+
+# Python compilation cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Models and Large Files
+models/*.pkl
+models/*.h5
+models/*.keras
+
+# Data
+data/raw/*
+# allow a small sample processed file
+!data/processed/.gitkeep
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
